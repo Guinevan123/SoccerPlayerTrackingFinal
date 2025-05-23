@@ -1,0 +1,15 @@
+path: C:/Users/User/Desktop/Soccer Player Tracking Final
+train: temp_dataset/train
+val: temp_dataset/train
+
+
+names:
+  0: player_team_left
+  1: player_team_right
+  2: referee
+  3: goalkeeper_team_left
+  4: goalkeeper_team_right
+  5: ball
+
+
+nc: 6
