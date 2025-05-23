@@ -17,7 +17,7 @@ This project implements a complete pipeline for detecting and tracking soccer pl
 3. **Tracking & Metric Analysis**
    - Applied the SORT (Simple Online Real-time Tracking) algorithm to the YOLO detections to track players across frames.
    - Evaluated tracking performance using metrics such as HOTA (Higher Order Tracking Accuracy), DetA (Detection Accuracy), and AssA (Association Accuracy).
-   - Iteratively improved both detection and tracking by analyzing these metrics and adjusting.
+   - Iteratively improved both detection and tracking by analysing these metrics and adjusting.
 
 4. **Full Game Processing & Final Output**
    - Selected a full 45-minute soccer game video for end-to-end processing.
@@ -34,7 +34,7 @@ This project covers the entire pipeline from data acquisition and model training
 - **Frame Extraction:** Extracts frames from an input `.mkv` video.
 - **Player Detection:** Uses a YOLO model to detect players in each frame.
 - **Tracking:** Applies the SORT algorithm to assign consistent IDs to players across frames.
-- **Visualization:** Saves annotated frames with bounding boxes and IDs.
+- **Visualisation:** Saves annotated frames with bounding boxes and IDs.
 - **Video Creation:** Compiles the annotated frames into a video for easy viewing.
 
 ---
